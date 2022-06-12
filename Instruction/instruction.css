@@ -1,0 +1,24 @@
+body {
+    background-image: url('./image/background.png');
+    font-size: 25px;
+    color: black;
+    font-family: 'Bad Script', cursive;
+}
+
+#btn {
+    height: 260px;
+    width: 260px;
+    background-image: url('../image/fish.png');
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bad Script', cursive;
+    align-items: center;
+    color: purple;
+    font-weight: 900;
+    left: 700px;
+    cursor: pointer;
+    font-size: 35px;
+    font-family: 'Bad Script', cursive;
+    position: relative;
+}

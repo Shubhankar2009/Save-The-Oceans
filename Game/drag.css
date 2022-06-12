@@ -1,0 +1,100 @@
+body {
+    background-image: url('./image/beach1\ \(3\).jpg');
+    font-family: 'Bad Script', cursive;
+}
+
+#lose {
+    display: none;
+    text-align: center;
+    font-size: 60px;
+}
+
+#line {
+    display: none;
+    text-align: center;
+    font-size: 60px;
+}
+
+#win {
+    display: none;
+    text-align: center;
+    font-size: 60px;
+}
+
+.imgBox {
+    background-color: green;
+    background-image: url("./image/bloom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 155px;
+    width: 155px;
+    cursor: pointer;
+}
+
+.whiteBox {
+    position: relative;
+    display: inline-block;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    border: 3px black solid;
+}
+
+#green {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./image/dust (1).png');
+}
+
+#yellow {
+    height: 250px;
+    width: 150px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./image/urinating_in_public-removebg-pre.png');
+}
+
+#red {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./image/oil-spill.png');
+}
+
+#black {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./image/garbage.png');
+}
+
+#white {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./image/stink.png');
+}
+
+#dirty_Things {
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hold {
+    border: solid red 4px;
+}
+
+.dashed {
+    background: rgb(214, 206, 206);
+    border-style: dashed;
+}
+
+.hide {
+    display: none;
+}
