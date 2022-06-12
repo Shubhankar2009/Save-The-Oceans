@@ -118,9 +118,13 @@ for (whiteBox of whiteBoxes) {
                     document.getElementById('select').style.display = "none"
                     value = "none"
                     score += 1
-                    console.log(score);
+                    time.innerText = `GAME OVER`
+                    clearInterval(my_interval)
                     document.getElementById("selection_box").style.display = "none";
+                    document.getElementById("dirty_Things").style.display = "none";
                     time.style.display = "none"
+                    line.style.display = "block"
+                    win.style.display = "block"
                 }, 2000);
             }
         }
